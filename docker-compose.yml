@@ -1,0 +1,6 @@
+githook_installer:
+  build: .
+  dockerfile: 'Dockerfile.githooks'
+  volumes:
+    - ./.git:/tmp/.git
+    - ./hooks:/tmp/hooks
