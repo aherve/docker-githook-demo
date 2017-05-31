@@ -1,4 +1,4 @@
-#Githooks-demo
+# Githooks-demo
 
 A minimal example of how to install git hooks for your entire team when working in a dockerized environment.
 
